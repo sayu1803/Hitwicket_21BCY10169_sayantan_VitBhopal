@@ -1,7 +1,8 @@
 const WebSocket = require('ws');
 
 // Create a WebSocket server on port 8080
-const wss = new WebSocket.Server({ port: 8080 });
+const PORT = process.env.PORT || 8080;
+const wss = new WebSocket.Server({ port: PORT });
 
 // Initial game state
 let gameState = {
