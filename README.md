@@ -129,9 +129,4 @@ The frontend can be deployed using Vercel.
 
 Contributions are welcome! Please fork the repository, create a new branch for your feature or bugfix, and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
