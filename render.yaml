@@ -1,0 +1,11 @@
+# Exported from Render on 2024-08-26T19:06:29Z
+services:
+- type: web
+  name: Hitwicket_21BCY10169_sayantan_VitBhopal-1
+  runtime: node
+  repo: https://github.com/sayu1803/Hitwicket_21BCY10169_sayantan_VitBhopal
+  plan: free
+  region: oregon
+  buildCommand: npm install
+  startCommand: node server.js
+version: "1"
